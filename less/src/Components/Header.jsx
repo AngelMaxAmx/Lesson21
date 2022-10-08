@@ -11,11 +11,15 @@ function Header() {
 
 
   return (
-    <header>
-        <img src={logo} alt='Logo' />
-        <Menu />
-        <Search />
-        <Registered />
+    <header className='header'>
+        <div className='block'>
+            <img className='logo' src={logo} alt='Logo' />
+            <Menu />
+        </div>
+        <div className='block'>
+            <Search />
+            <Registered />
+        </div>
     </header>
   );
 }
