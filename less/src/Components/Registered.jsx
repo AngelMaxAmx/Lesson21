@@ -1,4 +1,4 @@
-import './registered.css';
+
 
 function Registered() {
     
