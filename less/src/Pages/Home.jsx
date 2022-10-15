@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <>
         <Header/>
-        <h1 className='font-bold'> Hello world!</h1>
+        <h1>Home</h1>
         </>
     )
 }
