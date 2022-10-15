@@ -4,7 +4,7 @@ import Search from './Search.jsx'
 import Registered from './Registered.jsx'
 import logo from '../image/logo.svg'
 import { NavLink } from "react-router-dom";
-
+import { Bars2Icon } from '@heroicons/react/24/outline'
 function Header() {
 
     
@@ -19,10 +19,14 @@ function Header() {
         </NavLink>
         <Menu />
         </div>
-        <div className='flex items-center gap-6'>
+        <div className='hidden xl:flex items-center gap-6'>
             <Search />
             <Registered />
         </div>
+        <button className='flex kl:hidden'>
+          <Bars2Icon className='w-6' />
+
+        </button>
     </header>
   );
 }
