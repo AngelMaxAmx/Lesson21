@@ -1,12 +1,12 @@
 import './search.css';
-import search from '../image/search.svg'
+import { MagnifyingGlassIcon } from '@heroicons/react/24/solid'
 
 function Search() {
     
   return (
     <div className='search'>
         <input className='search-input' type='text'/>
-        <img className='search-icon' src={search} alt='Search icon'/>
+        <MagnifyingGlassIcon className='h-6 w-6'/>
     </div>
   );
 }
